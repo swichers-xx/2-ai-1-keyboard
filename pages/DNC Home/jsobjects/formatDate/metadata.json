@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "formatDate",
+    "pageId": "DNC Home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "DNC Home_formatDate",
+  "deleted": false,
+  "gitSyncId": "66690ccc62a4152558d85e64_1fee4d5d-8e2a-4800-9f89-7bb2a03157a8"
+}

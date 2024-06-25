@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "DateTimeDisplay",
+    "pageId": "DNC Home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "DNC Home_DateTimeDisplay",
+  "deleted": false,
+  "gitSyncId": "66690ccc62a4152558d85e64_66693af562a4152558d85e99"
+}

@@ -1,0 +1,1 @@
+INSERT INTO dbo.DoNotCallList (Phone, CreatedOn, RegistrationDate, Source, ContextId) VALUES ('{{doNotCallListForm.formData.Phone}}', {{doNotCallListForm.formData.CreatedOn}}, {{doNotCallListForm.formData.RegistrationDate}},0,'{{doNotCallListForm.formData.ContextId}}')

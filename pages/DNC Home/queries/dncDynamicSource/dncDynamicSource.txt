@@ -1,0 +1,2 @@
+SELECT DISTINCT source
+FROM dbo.DoNotCallList;

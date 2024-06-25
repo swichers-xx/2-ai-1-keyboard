@@ -1,0 +1,2 @@
+DELETE FROM dbo.DoNotCallList
+WHERE Phone = '{{doNotCallListForm.formData.Phone}}';

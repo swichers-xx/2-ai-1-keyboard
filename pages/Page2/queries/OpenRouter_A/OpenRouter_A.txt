@@ -1,0 +1,6 @@
+{
+    "model": "cohere/command-r-plus",
+    "messages": [
+      {"role": "user", "content": "{{InitialPrompt.text}}"}
+    ]
+  }

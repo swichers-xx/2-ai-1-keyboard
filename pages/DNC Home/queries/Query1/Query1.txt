@@ -1,0 +1,12 @@
+SELECT TOP 10 *
+FROM dbo.DoNotCallList
+WHERE 
+    -- Remove the '+1' prefix if it exists and compare with the form data
+    CASE 
+        WHEN Phone LIKE '+1%' THEN SUBSTRING(Phone, 3, LEN(Phone) - 2)
+        ELSE Phone 
+    END = 
+    CASE 
+        WHEN '{{doNotCallListForm.formData.Phone}}' LIKE '+1%' THEN SUBSTRING('{{doNotCallListForm.formData.Phone}}', 3, LEN('{{doNotCallListForm.formData.Phone}}') - 2)
+        ELSE '{{doNotCallListForm.formData.Phone}}'
+    END
